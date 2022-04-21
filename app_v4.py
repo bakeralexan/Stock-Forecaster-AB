@@ -47,22 +47,22 @@ def main():
 
 
 
-@app.route('/getstarted.html"')
+@app.route('/getstarted.html')
 def getstarted():
     app.static_folder = 'static'
     return render_template("getstarted.html")
 
-@app.route('/crypto.html"')
+@app.route('/crypto.html')
 def crypto():
     app.static_folder = 'static'
     return render_template("crypto.html")
 
-@app.route('/calendar.html"')
+@app.route('/calendar.html')
 def calendar():
     app.static_folder = 'static'
     return render_template("calendar.html")
 
-@app.route('/sp500.html"')
+@app.route('/sp500.html')
 def sp500():
     app.static_folder = 'static'
     return render_template("s&p500.html")
